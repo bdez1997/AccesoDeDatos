@@ -1,0 +1,17 @@
+package start;
+
+import java.io.File;
+
+import model.Conexion;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		File fchFichero= new File("conexion.cfg");
+	}
+	private static Conexion leerConexion(File fch) {
+		return null;
+		
+	}
+
+}

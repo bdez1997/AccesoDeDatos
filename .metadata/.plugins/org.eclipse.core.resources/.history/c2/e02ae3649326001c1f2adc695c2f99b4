@@ -1,0 +1,11 @@
+package start;
+
+import java.io.File;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		File fchFichero= new File("conexion.cfg");
+	}
+
+}

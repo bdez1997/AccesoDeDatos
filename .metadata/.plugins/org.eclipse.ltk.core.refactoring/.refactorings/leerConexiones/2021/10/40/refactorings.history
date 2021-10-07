@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;conexion.cfg&apos; to &apos;leerConexiones&apos;&#x0D;&#x0A;- Original project: &apos;leerConexiones&apos;&#x0D;&#x0A;- Destination element: &apos;leerConexiones&apos;&#x0D;&#x0A;- Original element: &apos;conexion.cfg&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" destination="=leerConexiones" element1="src/conexion.cfg" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1633602386135" units="0" version="1.0"/>
+</session>

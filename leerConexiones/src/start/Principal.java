@@ -23,6 +23,7 @@ public class Principal {
 		//Conexion cPropiedades=leerConexion(fchFichero);
 		//System.out.println(cPropiedades);
 	}
+	
 	private static void diffFch(File fch1,File fch2,File fchD) {
 		try {
 			int iContador=0;
@@ -72,13 +73,14 @@ public class Principal {
 				sCampo=sLinea.split(sSeparador);
 				mapa.put(sCampo[0].toUpperCase().trim(),sCampo[1].toUpperCase().trim());
 				sLinea=br.readLine();
+			}
 				
 				/*cPropiedades.setsHost(br.readLine().split(sSeparador)[1]);
 				cPropiedades.setsPort(br.readLine().split(sSeparador)[1]);
 				cPropiedades.setsDbname(br.readLine().split(sSeparador)[1]);
 				cPropiedades.setsUserName(br.readLine().split(sSeparador)[1]);
 				cPropiedades.setsUserPass(br.readLine().split(sSeparador)[1]);*/
-			}
+			
 			
 				/*String[] campos = sLinea.split(":");
 				

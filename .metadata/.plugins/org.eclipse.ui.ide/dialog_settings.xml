@@ -6,6 +6,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\Usuario\Documents\Kraken-Repositories\AccesoDeDatos"/>
 			<item value="C:\Users\Usuario\Documents\Acceso a Datos\03-Escribir en fichero"/>
 		</list>
 	</section>

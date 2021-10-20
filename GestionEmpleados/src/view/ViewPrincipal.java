@@ -21,8 +21,11 @@ public class ViewPrincipal {
 			break;
 
 		case 2:
-			
+			start.Init.gest.listarPosicion();
 			break;
+			
+		case 3:
+			
 		}
 		
 	}

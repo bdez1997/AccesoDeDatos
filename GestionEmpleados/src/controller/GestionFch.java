@@ -3,6 +3,7 @@ package controller;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.RandomAccessFile;
+import java.util.Scanner;
 
 import model.Empleado;
 
@@ -121,9 +122,15 @@ public class GestionFch {
 		}
 		return new Empleado(sNombre,sApellidos,lTelefono,sEmail,iEdad,doSueldo);
 	}
+	
 	public void listarPosicion() {
-		Scanner sScanner = new Scanner();
-		Empleado 
+		Scanner sScanner = new Scanner(System.in);
+		int iOption;
+		System.out.println("¿Qué posicion quieres ver?");
+		iOption=Integer.parseInt(sScanner.nextLine());
+		
+		start.Init.gest.leerRegistro(iOption);
+		
 		}
 	public void listarTodo() {
 		try {
